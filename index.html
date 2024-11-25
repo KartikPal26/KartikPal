@@ -10,34 +10,62 @@
 </head>
 <body>
     <header>
-        <a href="#" class = logo>SHIZUKA Minamoto</a>
+        <a href="#" class = logo>KARTIK </a>
 
         <nav>
             <a href="#" class="active">Home</a>
             <a href="#" class="active">About</a>
-            <a href="#" class="active">Skill</a>
+            <a href="#" class="active">Skills</a>
             <a href="#" class="active">Projects</a>
             <a href="#" class="active">Contact</a>
+        </nav>
+        <nav id = "hamburger-nav">
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+              </div>
         </nav>
     </header>
     <section class="home">
         <div class="home-img">
-            <img src="/assets/main.jpg" alt="">
+            <img src="/assets/3f17e80e-1991-4f76-b7b2-46aa22b6870f-transformed-removebg-preview.png" alt="">
         </div>
         <div class="home-content">
-            <h1>Hi,Its <span>Shizuka </span></h1>
-            <h3 class ="typing-text">I,m a <span></span></h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis consequuntur ut voluptate neque veritatis, alias, distinctio autem accusantium repellendus fugit corporis aperiam ex nobis quis esse officia!</p>
+            <h1>Hi,Its <span >Kartik Pal </span></h1>
+            <h3 class ="typing-text">I,m a <span class ="auto-type"></span></h3>
+            <div>
+                <p>I am a dedicated Android Developer with a passion for crafting innovative solutions. As a skilled Android developer,
+                    I've honed my expertise in Kotlin and Flutter to deliver high-quality applications that meet diverse client needs. 
+                    With a solid foundation in software development principles and a strong understanding of Agile methodologies, I excel
+                    in collaborating with cross-functional to drive projects to success.
+                   Beyond my academic journey, I actively participated in Hackathons and contributed to various hardware and software-based
+                   projects, honing, my problem-solving and technical skills. I've also successfully designed and developed numerous mobile 
+                   applications, demonstrating my ability to translate technical requirements into functional and user-friendly products.
+                </p>
+            </div>
+                
             <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/kartik-pal-b17227256/"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/KartikPal26"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/kartikpal/"><i class="fa-brands fa-instagram"></i></a>
 
             </div>
             <a href="#" class="btn">"Hire me"</a>
         </div>
     </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings: ["Android Developer","Web Developer","UI/UX Designer","Flutter Developer","Content Creator","Developer","Open Source Contributer"],
+            typeSpeed: 165,
+            backSpeed: 175,
+            loop: true
+        })
+    </script>
+
     <script src="script.js"></script>
 </body>
 </html>
