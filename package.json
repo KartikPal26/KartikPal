@@ -1,0 +1,15 @@
+{
+  "name": "kartikpal",
+  "version": "1.0.0",
+  "description": "Welcome to my personal portfolio! 🎉<br>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
