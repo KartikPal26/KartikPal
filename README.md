@@ -1,5 +1,5 @@
 # Portfolio by Kartik Pal
-<br>Welcome to my personal portfolio! 🎉<br><br>
+<br>Welcome to my personal portfolio! 🎉<br>
 
 <br>**Introduction**
 <br>Hi, I'm Kartik Pal, a passionate tech enthusiast currently pursuing a B.Tech in Information Technology.<br>
